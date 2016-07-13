@@ -1,3 +1,5 @@
+define("bootstrap.wysihtml5.commands", ["wysihtml5"], function(wysihtml5) {
+
 (function(wysihtml5) {
   wysihtml5.commands.small = {
     exec: function(composer, command) {
@@ -10,3 +12,6 @@
   };
 })(wysihtml5);
 
+
+
+});
